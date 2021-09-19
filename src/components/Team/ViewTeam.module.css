@@ -1,0 +1,93 @@
+.viewContainer {
+  background: rgb(208, 250, 204);
+}
+
+.viewteam {
+  position: relative;
+  margin: 2rem auto;
+  width: 550px;
+  height: 600px;
+  background: url(../../Images/ground.png) center/cover no-repeat;
+}
+
+.viewteam img {
+  width: 25px;
+  height: 30px;
+  border-radius: 1rem;
+  margin-left: 15px;
+}
+.viewteam p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.wk,
+.batsmen,
+.all,
+.bowler {
+  display: flex;
+  justify-content: space-around;
+
+  position: absolute;
+}
+
+.wk {
+  width: 12rem;
+  top: 10%;
+  left: 30%;
+}
+.batsmen {
+  width: 20rem;
+  top: 30%;
+  left: 25%;
+}
+.bowler {
+  width: 16rem;
+  top: 75%;
+  left: 25%;
+}
+.all {
+  width: 20rem;
+  top: 50%;
+  left: 25%;
+}
+
+@media screen and (max-width: 700px) {
+  .viewteam {
+    width: 400px;
+    height: 450px;
+  }
+  .viewteam img {
+    width: 20px;
+    height: 20px;
+    border-radius: 1rem;
+    margin-left: 15px;
+  }
+  .viewteam p {
+    font-size: 0.6rem;
+  }
+  .wk {
+    width: 8rem;
+    top: 10%;
+    left: 30%;
+  }
+  .batsmen {
+    width: 17rem;
+    top: 30%;
+    left: 13%;
+  }
+  .bowler {
+    width: 16rem;
+    top: 70%;
+    left: 20%;
+    flex-wrap: wrap;
+  }
+  .all {
+    width: 12rem;
+    top: 50%;
+    left: 20%;
+  }
+}

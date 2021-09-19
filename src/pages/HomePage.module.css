@@ -1,0 +1,111 @@
+.container {
+  width: 65%;
+  margin: 1rem auto;
+  padding-bottom: 1.5rem;
+  min-height: 50vh;
+  background: rgb(214, 213, 213);
+  border-radius: 10px;
+}
+.container,
+.head,
+.options,
+.contestList {
+  box-sizing: border-box;
+}
+
+.head {
+  width: 100%;
+  background: rgb(153, 1, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.options {
+  width: 80%;
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.options h4 {
+  letter-spacing: 0.1rem;
+  padding: 10px;
+  background: #fff;
+  color: #222;
+  box-shadow: 0px -2px 5px rgba(240, 236, 236, 0.973),
+    0px 4px 10px rgb(173, 170, 170);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contestList {
+  width: 95%;
+  margin-top: 1rem;
+  background: #fff;
+  color: #333;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 0.3rem;
+}
+
+.contestList div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0.8rem;
+  box-sizing: border-box;
+}
+
+.spots {
+  color: rgb(133, 131, 131);
+}
+.createHeading {
+  text-align: center;
+  font-size: 1.8rem;
+}
+.pay {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+.noContest {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 80%;
+    padding-bottom: 1.4rem;
+    min-height: 50vh;
+  }
+
+  .options {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .options h4 {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  .noContest {
+    font-size: 1.3rem;
+  }
+  .contestList {
+    width: 95%;
+    font-size: 0.8rem;
+  }
+}

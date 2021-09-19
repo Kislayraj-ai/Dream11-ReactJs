@@ -1,0 +1,42 @@
+.delete {
+  margin: 2rem;
+  margin-left: 15px;
+  font-size: 0.9rem;
+  color: #fff;
+  border: 1px solid rgb(228, 80, 80);
+  background-color: rgb(235, 86, 86);
+}
+.join,
+.join-details {
+  width: 95%;
+  padding: 1.1rem;
+  margin: 0.2rem auto;
+  background-color: rgb(248, 245, 245);
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.join p {
+  color: rgb(124, 124, 124);
+}
+.join-details {
+  margin-top: 0.6rem;
+  background-color: rgb(238, 238, 238);
+}
+.icon {
+  font-size: 1.4rem;
+  color: rgb(8, 151, 8);
+}
+@media screen and (max-width: 700px) {
+  .join {
+    flex-wrap: wrap;
+  }
+  .join h3,
+  p {
+    font-size: 0.8rem;
+  }
+  .delete {
+    font-size: 0.8rem;
+  }
+}

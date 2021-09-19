@@ -1,0 +1,4 @@
+.netlify/
+build/
+node_modules/
+public/_redirects

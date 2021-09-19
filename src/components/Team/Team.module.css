@@ -1,0 +1,53 @@
+.createTeamHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.4rem;
+}
+
+.tabs {
+  margin: 0 auto;
+  width: 95%;
+}
+.tabs-nav {
+  background: #333;
+}
+.tabs-nav ul {
+  padding: 0.5rem 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs-nav li {
+  text-transform: capitalize;
+  color: rgb(255, 250, 250);
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 700px) {
+  .info {
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.4rem;
+  }
+
+  .tabs-nav ul {
+    padding: 0.4rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tabs-nav li {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+}
