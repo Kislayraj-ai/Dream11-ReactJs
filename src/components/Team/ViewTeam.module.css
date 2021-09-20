@@ -5,7 +5,7 @@
 .viewteam {
   position: relative;
   margin: 2rem auto;
-  width: 550px;
+  width: 50%;
   height: 600px;
   background: url(../../Images/ground.png) center/cover no-repeat;
 }
@@ -37,7 +37,7 @@
 .wk {
   width: 12rem;
   top: 10%;
-  left: 30%;
+  left: 34%;
 }
 .batsmen {
   width: 20rem;
@@ -45,7 +45,7 @@
   left: 25%;
 }
 .bowler {
-  width: 16rem;
+  width: 20rem;
   top: 75%;
   left: 25%;
 }
@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 700px) {
   .viewteam {
-    width: 400px;
+    width: 80%;
     height: 450px;
   }
   .viewteam img {
@@ -72,12 +72,12 @@
   .wk {
     width: 8rem;
     top: 10%;
-    left: 30%;
+    left: 34%;
   }
   .batsmen {
     width: 17rem;
     top: 30%;
-    left: 13%;
+    left: 17%;
   }
   .bowler {
     width: 16rem;
@@ -87,6 +87,43 @@
   }
   .all {
     width: 12rem;
+    top: 50%;
+    left: 22%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .viewteam {
+    width: 88%;
+    height: 320px;
+  }
+  .viewteam img {
+    width: 12px;
+    height: 12px;
+    border-radius: 1rem;
+    margin-left: 15px;
+  }
+  .viewteam p {
+    font-size: 0.5rem;
+  }
+  .wk {
+    width: 8rem;
+    top: 10%;
+    left: 30%;
+  }
+  .batsmen {
+    width: 12rem;
+    top: 30%;
+    left: 16%;
+  }
+  .bowler {
+    width: 10rem;
+    top: 70%;
+    left: 21%;
+    flex-wrap: wrap;
+  }
+  .all {
+    width: 10rem;
     top: 50%;
     left: 20%;
   }

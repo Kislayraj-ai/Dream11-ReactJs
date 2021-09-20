@@ -1,9 +1,8 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Card from '../UI/Card';
 import useValidation from '../../hooks/use-validation';
 import icon from '../../Images/icon.png';
-
 import classes from './MainForm.module.css';
 
 const MainForm = (props) => {
@@ -41,6 +40,7 @@ const MainForm = (props) => {
     <Card className={classes['form-container']}>
       <div>
         <img src={icon} alt="icon" />
+
         <h1>
           Dream<span>11</span>
         </h1>

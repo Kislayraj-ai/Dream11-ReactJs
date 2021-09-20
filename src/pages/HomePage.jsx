@@ -18,8 +18,8 @@ const HomePage = () => {
     <Card className={classes.container}>
       <div className={classes.head}>
         <img src={logo} className={classes.logo} alt="logo" />
-        <Link className="links" to="/viewTeam">
-          <Button>View Team</Button>
+        <Link className="links" to="/login">
+          <Button>Sign Out</Button>
         </Link>
       </div>
 
