@@ -33,10 +33,15 @@
     flex-wrap: wrap;
   }
   .join h3,
-  p {
-    font-size: 0.8rem;
-  }
+  p,
   .delete {
     font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .join h3,
+  p,
+  .join-details p .delete {
+    font-size: 0.6rem;
   }
 }

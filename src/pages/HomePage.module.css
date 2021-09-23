@@ -108,4 +108,34 @@
     width: 95%;
     font-size: 0.8rem;
   }
+
+  .logo {
+    width: 75px;
+    height: 25px;
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    width: 90%;
+    padding-bottom: 1.4rem;
+    min-height: 50vh;
+  }
+  .options h4 {
+    font-size: 0.7rem;
+    padding: 5px 15px;
+  }
+  .noContest {
+    font-size: 1.1rem;
+  }
+  .contestList {
+    width: 95%;
+    font-size: 0.6rem;
+  }
+  .contestList h3 {
+    font-size: 0.7rem;
+  }
+  .pay {
+    font-size: 0.6rem;
+  }
 }

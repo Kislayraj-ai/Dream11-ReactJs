@@ -51,3 +51,13 @@
     letter-spacing: 1px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .info {
+    font-size: 0.8rem;
+  }
+
+  .tabs-nav li {
+    font-size: 0.7rem;
+  }
+}

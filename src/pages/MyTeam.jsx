@@ -35,7 +35,7 @@ const MyTeam = () => {
               View Team
             </Link>
           </Button>
-          {list.length > 1 && (
+          {list.length > 0 && (
             <Button onClick={DeleteHandler}>Delete Team</Button>
           )}
         </div>

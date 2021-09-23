@@ -45,7 +45,7 @@ const JoinContest = () => {
           <h3>Total Winnings :</h3>
           <p>₹ {contest.total}</p>
           <h3>Spot left :</h3>
-          <p>{contest.spot}</p>
+          <p>{parseInt(contest.spot) - 1}</p>
           <br />
         </div>
       ))}

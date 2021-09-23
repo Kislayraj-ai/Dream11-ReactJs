@@ -23,7 +23,7 @@
   border-radius: 0.5rem;
 }
 
-.players div {
+.teamListButton {
   width: 80px;
   padding: 0.3rem;
 }
@@ -48,5 +48,25 @@
   .players img {
     width: 55px;
     height: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .players {
+    font-size: 0.7rem;
+  }
+
+  .players img {
+    width: 40px;
+    height: 30px;
+  }
+
+  .teamListButton {
+    width: 65px;
+    padding: 0.3rem;
+  }
+
+  .teamListButton button {
+    font-size: 1.1rem;
   }
 }

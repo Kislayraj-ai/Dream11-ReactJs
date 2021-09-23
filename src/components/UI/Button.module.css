@@ -2,7 +2,7 @@
   font-size: 1rem;
   letter-spacing: 0.1rem;
   color: #fff;
-  border-radius: 0.3rem;
+  border-radius: 0.2rem;
   padding: 0.4rem 0.5rem;
   background: rgb(2, 145, 2);
   border: 1px solid rgb(2, 145, 2);
@@ -12,8 +12,11 @@
 @media screen and (max-width: 600px) {
   .button {
     font-size: 0.8rem;
-    letter-spacing: 0.1rem;
-    border-radius: 0.3rem;
-    padding: 0.2rem 0.4rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .button {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.3rem;
   }
 }
