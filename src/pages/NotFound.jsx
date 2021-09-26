@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div className="not-found">
       <Link className="backLink" to="/login">
-        <FaArrowLeft /> Back to login
+        <FaArrowLeft /> Take me Back
       </Link>
       <img src={image} width="650" height="650" alt="notfound" />
     </div>
